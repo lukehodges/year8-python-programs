@@ -1,0 +1,24 @@
+### 02/03/2020
+### Ordering strings and removing duplicates
+### Luke Hodges
+
+# creating our list file that we want to sort
+data = [1, 2, 5, 4, 3, 6, 8, 9, 7, 7, 11, 10, 1, 3, 4, 7, 8, 3, 4, 3, 10]
+
+# print out list of data
+for i in data:
+	print(i)
+
+# sorting data numerically
+data.sort(reverse = False)
+
+# printing the rearanged data
+print(data)
+
+# removing duplicates from list
+data = list(dict.fromkeys(data))
+# printing the new list
+print(data)
+
+### --- NOTE ---
+#  you could just use the last two lines of code and have the list stored in a variable but by sorting the list, you can write systems like the highest interest on a card or most valuable assets
