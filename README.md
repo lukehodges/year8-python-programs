@@ -6,3 +6,10 @@ finding volume of shapes
 chat bot
 
 more prodjects and news will be added below:
+  debt calculator
+  highest test score finder
+  ordering list and removing duplicates
+  a basic python graph
+  string repeats remover
+  count of characters
+  python name finder
