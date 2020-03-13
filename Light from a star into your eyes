@@ -1,0 +1,5 @@
+import math
+m = 3.4345
+fivelog = 5*math.log(10)
+M = m + 5 - fivelog
+print(M)
