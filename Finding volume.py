@@ -1,23 +1,23 @@
 # importing math for square routing (line 24)
 import math
 #making nececary variables
-radius = 2
+radius = float(input("input radius\n> "))
 pi = 3.14159265358979
-height = 3
+height = float(input("input height\n> "))
 line = height
 
 def sphere(radius, pi):
 	#volume = 3/4 pi * radius to the power of 3
 	pi2 = pi/4 *3 #3/4 of pi
-	radius = radius*radius*radius # cubing the radius
+	radius3 = radius*radius*radius # cubing the radius
 	volume = pi2*radius 
 	print(volume)
 	volume = 0
 
 def cone(radius, height, pi):
 	#volume = height/3 * pi * radius squared
-	height = height/3
-	radius = radius*radius
+	height3 = height/3
+	radius2 = radius*radius
 	volume = pi*radius*height
 	print(volume)
 
@@ -38,6 +38,6 @@ def d20(line):
 	print(volume)
 
 #remove hash to run
-#cylinder(radius, height, pi)
-#d20(line)
-#sphere(radius, pi)
+cylinder(radius, height, pi)
+d20(line)
+sphere(radius, pi)
