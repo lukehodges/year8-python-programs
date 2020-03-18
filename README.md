@@ -13,3 +13,6 @@ more prodjects and news will be added below:
   string repeats remover
   count of characters
   python name finder
+  list flipper
+  lottery
+  excel balance sheet
